@@ -12,4 +12,13 @@ public class Cat extends Pet {
         super("cat", color, DEFAULT_CAT_PRICE);
     }
 
+    @Override
+    public int hashCode() {
+        return super.hashCode();
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        return super.equals(obj);
+    }
 }

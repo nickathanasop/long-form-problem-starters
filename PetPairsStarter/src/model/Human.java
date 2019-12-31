@@ -2,14 +2,21 @@ package model;
 
 import model.pets.Pet;
 
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
 
 public class Human {
     private String name;
     private double spendibees;
+    private List<Pet> pets;
 
     public Human(String name) {
         this.name = name;
         this.spendibees = 0;
+        this.pets = new ArrayList<Pet>();
     }
 
     //getters
