@@ -52,6 +52,8 @@ public class PetPairs {
 
         int result = sally.numPetsOfSpecies("dog");
         System.out.println("Sally has " + result + " dog(s)");
+
+        store.displayAllPetsWithAttributes(true, false, 50.00);
     }
 
 }
